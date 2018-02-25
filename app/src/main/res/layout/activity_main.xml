@@ -22,42 +22,50 @@
     <FrameLayout
         android:id="@+id/frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="659dp">
 
         <TextView
             android:id="@+id/startLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tap to Start"
-            android:textSize="30sp"
-            android:textColor="#263238"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="130dp"/>
- 
+            android:layout_marginTop="130dp"
+            android:text="Tap to Start"
+            android:textColor="#263238"
+            android:textSize="30sp" />
+
         <ImageView
             android:id="@+id/box"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/box"
-            android:layout_gravity="center_vertical"/>
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/box" />
+
         <ImageView
             android:id="@+id/orange"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/orange"/>
+            android:src="@drawable/orange" />
+
         <ImageView
             android:id="@+id/black"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@drawable/black"/>
+            android:src="@drawable/black" />
+
         <ImageView
             android:id="@+id/pink"
             android:layout_width="16dp"
             android:layout_height="16dp"
-            android:src="@drawable/pink"/>
-
+            android:src="@drawable/pink" />
 
 
     </FrameLayout>
+
+    <ImageView
+        android:id="@+id/spike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/spike" />
 
 </LinearLayout>
